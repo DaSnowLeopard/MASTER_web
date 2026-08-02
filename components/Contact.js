@@ -7,8 +7,8 @@ export default function Contact() {
 
         <div className="spin-icon" style={{
           position: 'absolute',
-          bottom: '-200px',
-          right: '-200px',
+          bottom: '-100px',
+          right: '-100px',
         }}>
           <Settings size={400} color="#7499CD" strokeWidth={0.5} />
         </div>
