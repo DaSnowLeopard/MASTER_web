@@ -54,7 +54,7 @@ export default function Contact() {
                   }}>
                     <Phone size={30} />
                   </span>
-                  +7 (999) 999-9999
+                  +7 (913) 569-9191
                 </a>
 
                 <a href="mailto:hello@example.com" style={{
