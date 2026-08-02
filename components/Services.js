@@ -61,7 +61,7 @@ export default function Services() {
         <p className="section-label">Что мы делаем</p>
         <h2 className="section-title">НАШИ УСЛУГИ</h2>
 
-        <div style={{
+        <div className="services-grid" style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(2, 1fr)',
           gap: '2px',

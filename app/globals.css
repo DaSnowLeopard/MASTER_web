@@ -119,18 +119,19 @@ a {
 }
 
 @media (max-width: 768px) {
+  
   #license .container > div,
   #contact .container > div {
     grid-template-columns: 1fr !important;
     gap: 40px !important;
   }
 
-  #services .container > div:last-child {
+  .services-grid {
     grid-template-columns: 1fr !important;
   }
 
-  #services div[style*="grid-template-columns"] {
-    grid-template-columns: 1fr !important;
+  .services-grid > div {
+    grid-column: span 1 !important;
   }
 }
 
