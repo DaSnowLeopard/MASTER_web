@@ -37,7 +37,7 @@ export default function Hero() {
         <div style={{ maxWidth: '800px', width: '100%', overflowX: 'hidden' }}>
 
           <h1 style={{
-            fontSize: 'clamp(28px, 9vw, 56px)',
+            fontSize: 'clamp(10px, 9vw, 56px)',
             fontWeight: 900,
             lineHeight: 1.1,
             color: '#ffffff',
