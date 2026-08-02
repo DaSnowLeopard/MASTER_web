@@ -22,7 +22,7 @@ const services = [
     ],
   },
   {
-    id: '02',
+    id: '03',
     title: 'РЕМОНТ ТЕПЛОВОГО ОБОРУДОВАНИЯ',
     items: [
       'Пароконвектоматов и конвекционных печей',
@@ -33,7 +33,7 @@ const services = [
     ],
   },
   {
-    id: '03',
+    id: '04',
     title: 'РЕМОНТ ПОСУДОМОЕЧНОГО ОБОРУДОВАНИЯ',
     items: [
       'Посудомоечных машин любых типов',
@@ -41,7 +41,8 @@ const services = [
     ],
   },
   {
-    id: '04',
+    id: '05',
+    full: true,
     title: 'РЕМОНТ ЭЛЕКТРОМЕХАНИЧЕСКОГО ОБОРУДОВАНИЯ',
     items: [
       'Тестомесов и миксеров',
@@ -72,6 +73,7 @@ export default function Services() {
               background: '#0a0a0a',
               padding: '40px',
               transition: 'background 0.2s',
+              gridColumn: service.full ? 'span 2' : 'span 1',
             }}
               onMouseEnter={e => e.currentTarget.style.background = '#111'}
               onMouseLeave={e => e.currentTarget.style.background = '#0a0a0a'}
