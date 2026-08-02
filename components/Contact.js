@@ -10,7 +10,7 @@ export default function Contact() {
           bottom: '-100px',
           right: '-100px',
         }}>
-          <Settings size={400} color="#7499CD" strokeWidth={0.5} />
+          <Settings size={500} color="#7499CD" strokeWidth={0.5} />
         </div>
 
         <div className="container">
