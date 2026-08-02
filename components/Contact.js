@@ -10,7 +10,7 @@ export default function Contact() {
           bottom: '-200px',
           right: '-200px',
         }}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 24 24" fill="none" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 24 24" fill="none" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round">
             <defs>
               <linearGradient id="gear-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stopColor="#ff6b6b" />
