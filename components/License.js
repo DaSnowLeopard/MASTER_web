@@ -1,5 +1,5 @@
 'use client';
-import { Loader } from 'lucide-react';
+import { Sun } from 'lucide-react';
 import { useState } from 'react';
 
 export default function License() {
@@ -39,9 +39,9 @@ export default function License() {
             overflow: 'hidden',
           }}>
             <div className="spin-icon" style={{
-              marginRight: '-120px',
+              marginRight: '-225px',
             }}>
-              <Loader size={400} color="#7499CD" strokeWidth={0.5} />
+              <Sun size={450} color="#7499CD" strokeWidth={0.5} />
             </div>
           </div>
         </div>
