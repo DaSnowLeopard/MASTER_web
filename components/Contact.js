@@ -35,7 +35,7 @@ export default function Contact() {
               <p style={{ color: '#666', marginBottom: '40px', lineHeight: '1.8' }}></p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-                <a href="tel:+79999999999" style={{
+                <a href="tel:+79135699191" style={{
                   display: 'flex',
                   alignItems: 'center',
                   gap: '16px',
