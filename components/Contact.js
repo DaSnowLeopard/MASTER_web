@@ -98,7 +98,7 @@ export default function Contact() {
               <a
                 key={item.href}
                 href={item.href}
-                style={{ fontSize: '12px', color: '#555', letterSpacing: '1px', textTransform: 'uppercase' }}
+                style={{ fontSize: '10px', color: '#555', letterSpacing: '1px', textTransform: 'uppercase' }}
               >
                 {item.label}
               </a>
