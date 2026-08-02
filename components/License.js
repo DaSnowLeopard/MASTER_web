@@ -74,46 +74,56 @@ export default function License() {
       {/* Попап */}
       {open && (
         <div
-          onClick={e => e.stopPropagation()}
+          onClick={() => setOpen(false)}
           style={{
-            position: 'relative',
-            maxWidth: '800px',
-            width: '100%',
-            maxHeight: '90vh',
+            position: 'fixed',
+            top: 0, left: 0, right: 0, bottom: 0,
+            background: 'rgba(0,0,0,0.85)',
+            zIndex: 1000,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '24px',
             overflowY: 'auto',
-            background: '#111',
-            borderRadius: '12px',
           }}
         >
-          <button
-            onClick={() => setOpen(false)}
+          <div
+            onClick={e => e.stopPropagation()}
             style={{
-              position: 'sticky',  // ← sticky вместо absolute
-              top: '12px',
-              left: '100%',
-              transform: 'translateX(-150%)',
-              background: 'rgba(0,0,0,0.7)',
-              border: 'none',
-              color: '#fff',
-              width: '36px',
-              height: '36px',
-              borderRadius: '50%',
-              cursor: 'pointer',
-              fontSize: '16px',
-              zIndex: 10,
-              display: 'block',
-              marginLeft: 'auto',
-              marginRight: '12px',
-              marginTop: '12px',
+              position: 'relative',
+              maxWidth: '800px',
+              width: '100%',
+              background: '#111',
+              borderRadius: '12px',
+              overflow: 'hidden',
+              margin: 'auto',
             }}
           >
-            ✕
-          </button>
-          <img
-            src="/images/license.jpg"
-            alt="Лицензия"
-            style={{ width: '100%', display: 'block' }}
-          />
+            <button
+              onClick={() => setOpen(false)}
+              style={{
+                position: 'absolute',
+                top: '12px',
+                right: '12px',
+                background: 'rgba(0,0,0,0.7)',
+                border: 'none',
+                color: '#fff',
+                width: '36px',
+                height: '36px',
+                borderRadius: '50%',
+                cursor: 'pointer',
+                fontSize: '16px',
+                zIndex: 10,
+              }}
+            >
+              ✕
+            </button>
+            <img
+              src="/images/license.jpg"
+              alt="Лицензия"
+              style={{ width: '100%', display: 'block' }}
+            />
+          </div>
         </div>
       )}
     </section>
