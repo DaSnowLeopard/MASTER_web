@@ -37,39 +37,30 @@ export default function Hero() {
         <div style={{ maxWidth: '800px', width: '100%', overflowX: 'hidden' }}>
 
           <h1 style={{
-            fontSize: 'clamp(28px, 9vw, 110px)',
+            fontSize: 'clamp(28px, 9vw, 56px)',
             fontWeight: 900,
-            lineHeight: 1,
-            
+            lineHeight: 1.1,
             color: '#ffffff',
             marginBottom: '8px',
             marginTop: '15px',
           }}>
             ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ БИЗНЕСА
           </h1>
-          {/*<h1 style={{
-            fontSize: 'clamp(40px, 20px)',
-            fontWeight: 500,
-            lineHeight: 1,
-            color: '#ffffff',
-            marginBottom: '32px',
-          }}>
-            И РЕМОНТ ОБОРУДОВАНИЯ
-          </h1> */}
 
           <h2 style={{
-            fontSize: '20px',
+            fontSize: 'clamp(12px, 2vw, 20px)',
             fontWeight: 700,
             letterSpacing: '3px',
             textTransform: 'uppercase',
             color: '#7499CD',
             marginBottom: '24px',
+            marginTop: '16px',
           }}>
             ОФИЦИАЛЬНЫЙ СЕРВИСНЫЙ ЦЕНТР КЛИМАТИЧЕСКОЙ ТЕХНИКИ HAIER
           </h2>
 
           <p style={{
-            fontSize: '18px',
+            fontSize: 'clamp(14px, 2vw, 18px)',
             color: '#888',
             marginBottom: '48px',
             lineHeight: '1.7',
@@ -78,7 +69,7 @@ export default function Hero() {
             Профессиональный ремонт холодильного, теплового и электромеханического оборудования с 2018 года.
           </p>
 
-          <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+          <div className="hero-buttons" style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <a href="#contact" className="btn-primary">
               Связаться с нами
             </a>
@@ -88,7 +79,7 @@ export default function Hero() {
           </div>
 
           {/* Теги преимуществ */}
-          <div style={{
+          <div className="hero-icons" style={{
             display: 'flex',
             gap: '32px',
             marginTop: '64px',
