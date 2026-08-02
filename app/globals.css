@@ -146,10 +146,10 @@ a {
     to { transform: rotate(360deg); }
   }
 
-.spin-icon {
-  animation: spin 8s linear infinite;
-  display: inline-block;
-}
+  .spin-icon {
+    animation: spin 8s linear infinite;
+    display: inline-block;
+  }
 
   .hero-icons {
     flex-direction: column !important;
