@@ -1,4 +1,4 @@
-import { Settings } from 'lucide-react';
+import { Settings, Phone, Mail } from 'lucide-react';
 export default function Contact() {
   return (
     <>
