@@ -1,8 +1,10 @@
 import { Settings, Phone, Mail } from 'lucide-react';
+
 export default function Contact() {
   return (
     <>
-      <section id="contact" className="section">
+      <section id="contact" className="section" style={{ position: 'relative', overflow: 'hidden' }}>
+
         <div className="spin-icon" style={{
           position: 'absolute',
           bottom: '-200px',
@@ -10,6 +12,7 @@ export default function Contact() {
         }}>
           <Settings size={400} color="#7499CD" strokeWidth={0.5} />
         </div>
+
         <div className="container">
           <div style={{
             display: 'grid',
@@ -19,8 +22,7 @@ export default function Contact() {
           }}>
             <div>
               <h2 className="section-title">СВЯЖИТЕСЬ С НАМИ</h2>
-              <p style={{ color: '#666', marginBottom: '40px', lineHeight: '1.8' }}>
-              </p>
+              <p style={{ color: '#666', marginBottom: '40px', lineHeight: '1.8' }}></p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
                 <a href="tel:+79999999999" style={{
@@ -39,7 +41,6 @@ export default function Contact() {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: '60px',
                   }}>
                     <Phone size={30} />
                   </span>
@@ -61,9 +62,8 @@ export default function Contact() {
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: '18px',
                   }}>
-                    <Mail size={30}/>
+                    <Mail size={30} />
                   </span>
                   hello@example.com
                 </a>
@@ -73,7 +73,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer style={{
         background: '#050505',
         borderTop: '1px solid #1a1a1a',
@@ -102,7 +101,7 @@ export default function Contact() {
               { label: 'Цены', href: '#prices' },
               { label: 'Связаться', href: '#contact' },
             ].map((item) => (
-              <a
+                <a
                 key={item.href}
                 href={item.href}
                 style={{ fontSize: '10px', color: '#555', letterSpacing: '1px', textTransform: 'uppercase' }}
