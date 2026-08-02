@@ -9,6 +9,7 @@ export default function Hero() {
       position: 'relative',
       overflow: 'hidden',
       paddingTop: '64px',
+      overflowX: 'hidden',
     }}>
       {/* Декоративная линия */}
       <div style={{
@@ -36,7 +37,7 @@ export default function Hero() {
         <div style={{ maxWidth: '800px' }}>
 
           <h1 style={{
-            fontSize: 'clamp(52px, 8vw, 70px)',
+            fontSize: 'clamp(36px, 8vw, 70px)',
             fontWeight: 900,
             lineHeight: 1,
             
