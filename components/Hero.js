@@ -37,7 +37,7 @@ export default function Hero() {
         <div style={{ maxWidth: '800px' }}>
 
           <h1 style={{
-            fontSize: 'clamp(36px, 8vw, 70px)',
+            fontSize: 'clamp(28px, 9vw, 110px)',
             fontWeight: 900,
             lineHeight: 1,
             

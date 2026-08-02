@@ -125,6 +125,13 @@ a {
     gap: 40px !important;
   }
 
+@media (max-width: 480px) {
+  h1 {
+    letter-spacing: -1px !important;
+    word-break: break-word;
+  }
+}
+
   #services .container > div:last-child {
     grid-template-columns: 1fr !important;
   }

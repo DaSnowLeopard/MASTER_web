@@ -22,7 +22,7 @@ export default function Header() {
         height: '64px',
       }}>
         {/* Логотип */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px',  }}>
           <span style={{ color: '#7499CD', fontWeight: 900, fontSize: '18px', letterSpacing: '2px' }}>
             МАСТЕР
           </span>
