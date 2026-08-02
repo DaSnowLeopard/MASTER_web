@@ -1,3 +1,4 @@
+import { Loader } from 'lucide-react';
 'use client';
 import { useState } from 'react';
 
@@ -31,42 +32,17 @@ export default function License() {
             </button>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-            {[
-              { icon: '✓', title: 'Медицинская лицензия', desc: 'Лицензия на работу с медучреждениями' },
-              { icon: '✓', title: 'Сертифицированные специалисты', desc: 'Все мастера прошли государственную сертификацию' },
-              { icon: '✓', title: 'Федеральные сети', desc: 'Нам доверяют «Лента», «Магнит» и другие сети' },
-            ].map((item) => (
-              <div key={item.title} style={{
-                display: 'flex',
-                gap: '20px',
-                alignItems: 'flex-start',
-                padding: '20px',
-                background: '#1a1a1a',
-                border: '1px solid #2a2a2a',
-                borderRadius: '8px',
-              }}>
-                <div style={{
-                  width: '36px',
-                  height: '36px',
-                  background: 'rgba(116,153,205,0.15)',
-                  color: '#7499CD',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 900,
-                  fontSize: '16px',
-                  flexShrink: 0,
-                  borderRadius: '6px',
-                }}>
-                  {item.icon}
-                </div>
-                <div>
-                  <div style={{ fontWeight: 700, marginBottom: '4px', color: '#e8e8e8' }}>{item.title}</div>
-                  <div style={{ fontSize: '14px', color: '#666' }}>{item.desc}</div>
-                </div>
-              </div>
-            ))}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'flex-end',
+            overflow: 'hidden',
+          }}>
+            <div className="spin-icon" style={{
+              marginRight: '-120px',
+            }}>
+              <Loader size={400} color="#7499CD" strokeWidth={0.5} />
+            </div>
           </div>
         </div>
       </div>
