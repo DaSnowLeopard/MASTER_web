@@ -125,14 +125,24 @@ a {
     gap: 40px !important;
   }
 
-@media (max-width: 480px) {
-  h1 {
-    letter-spacing: -1px !important;
-    word-break: break-word;
+  #services .container > div:last-child {
+    grid-template-columns: 1fr !important;
   }
 }
 
-  #services .container > div:last-child {
-    grid-template-columns: 1fr !important;
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-direction: column !important;
+    width: 100%;
+  }
+  
+  .hero-buttons a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-icons {
+    flex-direction: column !important;
+    align-items: center;
   }
 }

@@ -34,7 +34,7 @@ export default function Hero() {
       }} />
 
       <div className="container">
-        <div style={{ maxWidth: '800px' }}>
+        <div style={{ maxWidth: '800px', width: '100%', overflowX: 'hidden' }}>
 
           <h1 style={{
             fontSize: 'clamp(28px, 9vw, 110px)',
