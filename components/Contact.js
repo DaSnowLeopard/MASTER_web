@@ -1,8 +1,15 @@
-import { Phone, Mail } from 'lucide-react';
+import { Settings } from 'lucide-react';
 export default function Contact() {
   return (
     <>
       <section id="contact" className="section">
+        <div className="spin-icon" style={{
+          position: 'absolute',
+          bottom: '-200px',
+          right: '-200px',
+        }}>
+          <Settings size={400} color="#7499CD" strokeWidth={0.5} />
+        </div>
         <div className="container">
           <div style={{
             display: 'grid',
