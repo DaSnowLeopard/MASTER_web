@@ -21,7 +21,7 @@ export default function Contact() {
                   alignItems: 'center',
                   gap: '16px',
                   color: '#e8e8e8',
-                  fontSize: '30px',
+                  fontSize: '25px',
                   fontWeight: 700,
                   letterSpacing: '1px',
                 }}>
