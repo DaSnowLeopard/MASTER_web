@@ -1,5 +1,5 @@
-import { Loader } from 'lucide-react';
 'use client';
+import { Loader } from 'lucide-react';
 import { useState } from 'react';
 
 export default function License() {
