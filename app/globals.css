@@ -140,6 +140,12 @@ a {
     display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .spin-icon {
+    display: none !important;
+  }
+}
+
 @media (max-width: 480px) {
   .hero-buttons {
     flex-direction: column !important;
