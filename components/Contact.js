@@ -10,7 +10,17 @@ export default function Contact() {
           bottom: '-150px',
           right: '-150px',
         }}>
-          <Settings size={500} color="#7499CD" strokeWidth={0.5} />
+          <svg width="400" height="400" viewBox="0 0 24 24" fill="none" strokeWidth="0.5" strokeLinecap="round" strokeLinejoin="round">
+            <defs>
+              <linearGradient id="gear-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#7499CD" />
+                <stop offset="50%" stopColor="#a78bfa" />
+                <stop offset="100%" stopColor="#38bdf8" />
+              </linearGradient>
+            </defs>
+            <path stroke="url(#gear-gradient)" d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+            <path stroke="url(#gear-gradient)" d="M19.622 10.395l-1.097-2.65L20 6l-2-2-1.735 1.483-2.707-1.113L12.935 2h-1.954l-.632 2.401-2.645 1.115L6 4 4 6l1.453 1.789-1.08 2.657L2 11v2l2.401.655L5.516 16.3 4 18l2 2 1.791-1.46 2.606 1.072L11 22h2l.604-2.406 2.65-1.097L18 20l2-2-1.484-1.755 1.106-2.695L22 13v-2l-2.378-.605Z"/>
+          </svg>
         </div>
 
         <div className="container">
