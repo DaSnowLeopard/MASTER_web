@@ -115,7 +115,7 @@ export default function Services() {
                       position: 'absolute',
                       left: 0,
                       color: '#7499CD',
-                    }}>—</span>
+                    }}>•</span>
                     {item}
                   </li>
                 ))}
