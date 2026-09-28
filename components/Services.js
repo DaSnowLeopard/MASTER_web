@@ -105,8 +105,8 @@ export default function Services() {
               }}>
                 {service.items.map((item) => (
                   <li key={item} style={{
-                    fontSize: '14px',
-                    color: '#666',
+                    fontSize: '16px',
+                    color: '#8c8c8c',
                     paddingLeft: '20px',
                     position: 'relative',
                     lineHeight: '1.5',
