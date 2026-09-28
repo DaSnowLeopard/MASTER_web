@@ -33,7 +33,7 @@ export default function Hero() {
         pointerEvents: 'none',
       }} />
 
-      <div className="container">
+      <div className="container" style={{ width: '100%' }}>
         <div style={{ maxWidth: '800px', width: '100%', overflowX: 'hidden' }}>
 
           <h1 style={{
