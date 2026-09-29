@@ -34,7 +34,7 @@ export default function Hero() {
       }} />
 
       <div className="container" style={{ width: '100%' }}>
-        <div style={{ maxWidth: '800px', width: '100%', overflowX: 'hidden' }}>
+        <div style={{ maxWidth: '800px', width: '100%' }}>
 
           <h1 style={{
             fontSize: 'clamp(16px, 9vw, 56px)',
@@ -81,7 +81,7 @@ export default function Hero() {
           {/* Теги преимуществ */}
           <div className="hero-icons" style={{
             display: 'flex',
-            gap: '32px',
+            gap: '96px',
             marginTop: '64px',
             flexWrap: 'wrap',
             justifyContent: 'center',
@@ -91,7 +91,7 @@ export default function Hero() {
               { title: 'НАДЁЖНОСТЬ', desc: 'Нам доверяют федеральные сети - «Лента», «Магнит» и другие сети', icon: <ShieldCheck size={80}/>},
               { title: 'КАЧЕСТВО', desc: 'Сертифицированные специалисты и лицензия на работу с мед. учреждениями', icon: <Star size={80}/>},
             ].map((item) => (
-              <div key={item.title} style={{textAlign: 'center'}}>
+              <div key={item.title} style={{ textAlign: 'center', maxWidth: '240px' }}>
                 <div style={{ marginBottom: '8px' }}>{item.icon}</div>
                 <div style={{
                   fontSize: '20px',
