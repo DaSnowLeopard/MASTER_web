@@ -6,8 +6,8 @@ export default function License() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section id="license" className="section section-alt">
-      <div className="container">
+    <section id="license" className="section section-alt" style={{ position: 'relative', overflow: 'hidden' }}>
+      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
@@ -33,14 +33,13 @@ export default function License() {
           </div>
 
           <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'flex-end',
-            overflow: 'hidden',
+            position: 'absolute',
+            right: 0,
+            top: '50%',
+            transform: 'translate(50%, -50%)',
+            pointerEvents: 'none',
           }}>
-            <div className="spin-icon" style={{
-              marginRight: '-225px',
-            }}>
+            <div className="spin-icon">
               <Settings size={450} color="#7499CD" strokeWidth={0.5} />
             </div>
           </div>
