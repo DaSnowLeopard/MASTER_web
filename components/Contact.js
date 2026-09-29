@@ -57,7 +57,7 @@ export default function Contact() {
                   +7 (913) 569-9191
                 </a>
 
-                <a href="mailto:hello@example.com" style={{
+                <a href="mailto:mastersib.124@mail.ru" style={{
                   display: 'flex',
                   alignItems: 'center',
                   gap: '16px',
@@ -75,7 +75,7 @@ export default function Contact() {
                   }}>
                     <Mail size={30} />
                   </span>
-                  hello@example.com
+                  mastersib.124@mail.ru
                 </a>
               </div>
             </div>
