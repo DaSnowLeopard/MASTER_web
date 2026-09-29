@@ -81,10 +81,11 @@ export default function Hero() {
           {/* Теги преимуществ */}
           <div className="hero-icons" style={{
             display: 'flex',
-            gap: '96px',
+            gap: '140px',
             marginTop: '64px',
             flexWrap: 'wrap',
             justifyContent: 'center',
+            alignItems: 'center',
           }}>
             {[
               { title: 'СКОРОСТЬ', desc: 'Минимальное время работы от 20 минут', icon: <Clock size={80}/>},
