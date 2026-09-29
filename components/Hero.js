@@ -82,7 +82,7 @@ export default function Hero() {
           {/* Теги преимуществ */}
           <div className="hero-icons" style={{
             display: 'flex',
-            gap: '140px',
+            gap: 'clamp(32px, 8vw, 200px)',
             marginTop: '64px',
             flexWrap: 'wrap',
             justifyContent: 'center',
