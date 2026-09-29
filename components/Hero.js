@@ -77,6 +77,7 @@ export default function Hero() {
               Наши услуги
             </a>
           </div>
+        </div>
 
           {/* Теги преимуществ */}
           <div className="hero-icons" style={{
@@ -113,7 +114,6 @@ export default function Hero() {
             ))}
           </div>
         </div>
-      </div>
     </section>
   );
 }
