@@ -31,18 +31,19 @@ export default function License() {
               Посмотреть лицензию
             </button>
           </div>
+        </div>
+      </div>
 
-          <div style={{
-            position: 'absolute',
-            right: 0,
-            top: '50%',
-            transform: 'translate(50%, -50%)',
-            pointerEvents: 'none',
-          }}>
-            <div className="spin-icon">
-              <Settings size={450} color="#7499CD" strokeWidth={0.5} />
-            </div>
-          </div>
+      {/* Шестерёнка: привязана к правому краю секции, обрезается ровно пополам */}
+      <div style={{
+        position: 'absolute',
+        right: 0,
+        top: '50%',
+        transform: 'translate(50%, -50%)',
+        pointerEvents: 'none',
+      }}>
+        <div className="spin-icon">
+          <Settings size={450} color="#7499CD" strokeWidth={0.5} />
         </div>
       </div>
 
